@@ -16,7 +16,7 @@ public class Task2 {
 	static Player playersNames[] = new Player[4];
 	
 	public static void cardDistribution() {
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < playersNames.length; i++) {
 			List<Card> cardsOfEachPlayer = new ArrayList<Card>();
 		
 			for (int j = 0; j < 13; j++) {
