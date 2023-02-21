@@ -94,7 +94,10 @@
         #transParentBox {
             margin-left: 25%;
         }
+.row{
+    padding-left: 14%;
 
+}
         /* Float four columns side by side */
         .column {
         float: left;
