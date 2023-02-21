@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../resources/css/regestration.css" />
+    <script src="../java/Vlidator.js"></script>
+  </head>
+  <body>
+   <h1 id="text1">Sponsor Registration </h1>
+    <div class="container">
+      <div class="vl"></div>
+        <!-- Row 1-->
+      <div class="row">
+        <div class="col-25">
+          <label for="prefix">Prefix</label>
+        </div>
+
+        <div class="col-75">
+          <input type="text" id="fname" name="fname" />
+        </div>
+
+        <div class="rightText">
+          <label for="companyDescription">Company Description </label>
+        </div>
+      </div>
+      <!-- Row 2-->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="firstName">Name</label>
+        </div>
+
+        <div class="col-10">
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name.."
+          />
+        </div>
+
+        <div class="col-10">
+          <input
+            type="text"
+            style="margin-left: 2px;"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name.."
+          />
+        </div>
+        <div>
+          <textarea
+            class="rightTextArea"
+            rows="4"
+            cols="50"
+            id="companyDescription"
+          ></textarea>
+        </div>
+      </div>
+      <!-- Row 3-->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="preferredPronouns">Preferred Pronouns</label>
+        </div>
+        <div class="col-25">
+          <input type="text" id="preferredPronouns" name="preferredPronouns" />
+        </div>
+        <div class="rightText">
+          <label for="companyFaceBookPage">Company Facebook Page </label>
+        </div>
+      </div>
+
+      <!-- Row 4-->
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+
+        <div class="col-75">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Sample@example.com"
+          />
+        </div>
+        <div class="col-100">
+          <input type="text" id="companyFaceBookPage" name="companyFaceBookPage" " >
+        </div>
+      </div>
+
+      <!-- Row 5-->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="workPhone">Work Phone</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="workPhone" name="workPhone" />
+        </div>
+        <div class="rightText">
+          <label for=">companyTwitterHandle">Company Twitter Handle </label>
+        </div>
+      </div>
+      <!-- Row 6-->
+      <div class="row">
+        <div class="col-25">
+          <label for="cellPhone">Cell Phone</label>
+        </div>
+
+        <div class="col-75">
+          <input type="text" id="cellPhone" name="cellPhone" />
+        </div>
+        <div class="col-100">
+          <input type="text" id="companyTwitterHandle"
+          name="companyTwitterHandle" " >
+        </div>
+      </div>
+      <!-- Row 7-->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="jobTitle">Job Title</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="jobTitle" name="jobTitle" />
+        </div>
+        <div class="rightText">
+          <label for=">companyLinkedHandle">Company Linked Handle </label>
+        </div>
+      </div>
+      <!-- Row 8-->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="company">Company</label>
+        </div>
+
+        <div class="col-75">
+          <input type="text" id="company" name="cellPhone" />
+        </div>
+        <div class="col-100">
+          <input type="text" id="companyLinkedHandle" name="companyLinkedHandle"
+          " >
+        </div>
+      </div>
+
+      <!-- Row 9-->
+      <div class="row">
+        <div class="col-25">
+          <label for="fullBusinessAdress">Full Business Address</label>
+        </div>
+        <div class="rightText">
+          <label for="sponsorShipLevel">SponsorShip Level </label>
+        </div>
+      </div>
+
+
+      <!-- Row 10-->
+      <div class="row">
+        <div class="col-75">
+      <input type="text" id="fullBusinessAdress" name="fullBusinessAdress" />
+       </div>
+       <div class="rightText">
+        <input type="radio" id="gold" name="sponsorLevel" value="gold" />
+        <output for="gold" calss="radioLabel">Gold</label><br>
+
+        <input type="radio" id="diamond" name="sponsorLevel" value="diamond" />
+        
+        <output for="diamond" calss="radioLabel">Diamond</label><br>
+
+        <input type="radio" id="platinum" name="sponsorLevel" value="platinum" />
+        <output for="platinum" calss="radioLabel">Platinum</label><br>
+       
+       
+      </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="companyWebsite">Company Website</label>
+        </div>
+        <div class="rightText">
+          <label for="additionalGuest">Additional Quest(name , email) </label>
+        </div>
+      </div>
+
+
+       <div class="row">
+        <div class="col-75">
+          <input type="text" id="companyWebsite" name="companyWebsite" />
+       </div>
+       
+       <div class="col-75">
+        </div>
+        <div class="col-75">
+          <input type="text" id="additionalGuest" name="companyWebsite"  />
+       </div>
+       </div>
+
+
+
+
+       <input type="submit" value="Submit" onclick="inputValidation()">
+    
+
+
+    </div>
+  </body>
+</html>
