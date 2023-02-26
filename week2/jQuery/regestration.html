@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="./css/regestration.css" />
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <link rel="stylesheet" href="../resources/css/regestration.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" 
+         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" 
+         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./js/Vlidator.js"></script>
+    </head>
+   <body>
+      <h1 id="text1">Sponsor Registration </h1>
+      <div class="container">
+         <div class="vl"></div>
+         <!-- Row 1-->
+         <div class="row">
+            <div class="col-25">
+               <label for="prefix">Prefix</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="fname" name="fname" />
+            </div>
+            <div class="rightText">
+               <label for="companyDescription">Company Description </label>
+            </div>
+         </div>
+         <!-- Row 2-->
+         <div class="row">
+            <div class="col-25">
+               <label for="firstName">Name</label>
+            </div>
+            <div class="col-10">
+               <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="First Name.."
+                  />
+            </div>
+            <div class="col-10">
+               <input
+                  type="text"
+                  style="margin-left: 2px;"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Last Name.."
+                  />
+            </div>
+            <div>
+               <textarea
+                  class="rightTextArea"
+                  rows="4"
+                  cols="50"
+                  id="companyDescription"
+                  ></textarea>
+            </div>
+         </div>
+         <!-- Row 3-->
+         <div class="row">
+            <div class="col-25">
+               <label for="preferredPronouns">Preferred Pronouns</label>
+            </div>
+            <div class="col-10"></div>
+            <div class="col-10">
+               <input type="text" id="preferredPronouns" name="preferredPronouns" />
+            </div>
+            <div class="rightText">
+               <label for="companyFaceBookPage">Company Facebook Page </label>
+            </div>
+         </div>
+         <!-- Row 4-->
+         <div class="row">
+            <div class="col-25">
+               <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+               <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Sample@example.com"
+                  />
+            </div>
+            <div class="col-100">
+               <input type="text" id="companyFaceBookPage" name="companyFaceBookPage" " >
+            </div>
+         </div>
+         <!-- Row 5-->
+         <div class="row">
+            <div class="col-25">
+               <label for="workPhone">Work Phone</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="workPhone" name="workPhone" />
+            </div>
+            <div class="rightText">
+               <label for=">companyTwitterHandle">Company Twitter Handle </label>
+            </div>
+         </div>
+         <!-- Row 6-->
+         <div class="row">
+            <div class="col-25">
+               <label for="cellPhone">Cell Phone</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="cellPhone" name="cellPhone" />
+            </div>
+            <div class="col-100">
+               <input type="text" id="companyTwitterHandle"
+                  name="companyTwitterHandle" " >
+            </div>
+         </div>
+         <!-- Row 7-->
+         <div class="row">
+            <div class="col-25">
+               <label for="jobTitle">Job Title</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="jobTitle" name="jobTitle" />
+            </div>
+            <div class="rightText">
+               <label for=">companyLinkedHandle">Company Linked Handle </label>
+            </div>
+         </div>
+         <!-- Row 8-->
+         <div class="row">
+            <div class="col-25">
+               <label for="company">Company</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="company" name="cellPhone" />
+            </div>
+            <div class="col-100">
+               <input type="text" id="companyLinkedHandle" name="companyLinkedHandle"
+                  " >
+            </div>
+         </div>
+         <!-- Row 9-->
+         <div class="row">
+            <div class="col-25">
+               <label for="fullBusinessAdress">Full Business Address</label>
+            </div>
+            <div class="rightText">
+               <label for="sponsorShipLevel">SponsorShip Level </label>
+            </div>
+         </div>
+         <!-- Row 10-->
+         <div class="row">
+            <div class="col-75">
+               <input type="text" id="fullBusinessAdress" name="fullBusinessAdress" />
+            </div>
+            <div class="rightText">
+               <input type="radio" id="gold" name="sponsorLevel" value="gold" />
+               <output for="gold" calss="radioLabel">Gold</label><br>
+               <input type="radio" id="diamond" name="sponsorLevel" value="diamond" />
+               <output for="diamond" calss="radioLabel">Diamond</label><br>
+               <input type="radio" id="platinum" name="sponsorLevel" value="platinum" />
+               <output for="platinum" calss="radioLabel">Platinum</label><br>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-25">
+               <label for="companyWebsite">Company Website</label>
+            </div>
+            <div class="rightText">
+               <label for="additionalGuest">Additional Quest(name , email) </label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-75">
+               <input type="text" id="companyWebsite" name="companyWebsite" />
+            </div>
+            <div class="col-75">
+            </div>
+            <div class="col-75">
+               <input type="text" id="additionalGuest" name="companyWebsite"  />
+            </div>
+         </div>
+         <div class="row " >
+            <div class="col-25"> <label>Language </label></div>
+            <div class="col-75">
+               <ul id="menu">
+                  <li  ><a href="#">Arabic</a></li>
+                  <li c><a href="#">English</a></li>
+                  <li><a href="#">Frensh</a></li>
+               </ul>
+            </div>
+            <div class="col-25"></div>
+            <div class="slider col-75" style="width: 30%">
+              <div class="slide"><img src="./images/registration.png"></div>
+              <div class="slide"><img src="./images/registration2.png"></div>
+              <div class="slide"><img src="./images/registration3.png"></div>
+              <div class="slide"><img src="./images/registration4.png"></div>
+           </div>
+         </div>
+         <div class="row " ></div>
+         
+      </div>
+      
+      </div>
+      <input type="submit" value="Submit" onclick="inputValidation()">
+
+      <script type="text/javascript">
+         $('.slider').slick({
+           dots: true,
+           infinite: true,
+           speed: 500,
+           fade: true,
+           cssEase: 'linear'
+         });
+         
+             
+      </script>
+      <script>
+         $( function() {
+           $( "#menu" ).menu();
+         } );
+      </script>
+   </body>
+</html>
