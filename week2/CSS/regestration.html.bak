@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../resources/css/regestration.css" />
-    <script src="../java/Vlidator.js"></script>
+   <link rel="stylesheet" href="./css/regestration.css" />
+    <script src="./js/Vlidator.js"></script>
   </head>
   <body>
    <h1 id="text1">Sponsor Registration </h1>
@@ -41,7 +41,7 @@
         <div class="col-10">
           <input
             type="text"
-            style="margin-left: 2px;"
+            style="margin-left: 2px;margin-right: 20px;"
             id="lastName"
             name="lastName"
             placeholder="Last Name.."

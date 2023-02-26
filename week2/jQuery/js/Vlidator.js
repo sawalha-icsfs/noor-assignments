@@ -1,3 +1,4 @@
+
 function inputValidation() {
     firstName = document.getElementById("firstName").value;
     lastName = document.getElementById("lastName").value;

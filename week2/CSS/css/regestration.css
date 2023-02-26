@@ -90,10 +90,10 @@ padding-bottom: 0px;
   }
   .rightTextArea{
     
-    display: inline-block;
+     float: right
     border: 1px solid #ccc;
-    padding:0;
-   margin-left: 10%;
+  
+ 
    
 
   }
